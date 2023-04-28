@@ -7,7 +7,7 @@ while True:
     question = input("\033[34mWhat is your question?\n\033[0m")
 
     if question.lower() == "exit":
-        print("\033[31mGoodbye!\n\033[0m")
+        print("\033[31mSee ya later!\n\033[0m")
         break
 
     completion = openai.ChatCompletion.create(
