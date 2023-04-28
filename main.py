@@ -15,7 +15,7 @@ while True:
         messages=[
             {
               "role": "system",
-              "content": "You are an assistant. Answer the given question."
+              "content": "You are a helpful assistant. Answer the given question."
             },
             {
                 "role": "user",
